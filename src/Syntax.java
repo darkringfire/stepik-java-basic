@@ -28,4 +28,8 @@ public class Syntax {
 	public static int flipBit(int value, int bitIndex) {
 	    return value ^ (1 << (bitIndex - 1));
 	}
+
+	public static char charExpression(int a) {
+	    return (char)('\\' + a);
+	}
 }
