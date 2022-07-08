@@ -12,4 +12,9 @@ public class Syntax {
 	public static int leapYearCount(int year) {
 		return year / 4 - year / 100 + year / 400;
 	}
+
+	public static boolean doubleExpression(double a, double b, double c) {
+		final double e = 1e-4;
+		return Math.abs(a + b - c) < e;
+	}
 }
