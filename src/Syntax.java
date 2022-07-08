@@ -42,4 +42,15 @@ public class Syntax {
 	public static boolean isPowerOfTwo(int value) {
 	    return Integer.bitCount(Math.abs(value)) == 1;
 	}
+	
+	/**
+	 * Checks if given <code>text</code> is a palindrome.
+	 *
+	 * @param text any string
+	 * @return <code>true</code> when <code>text</code> is a palindrome, <code>false</code> otherwise
+	 */
+	public static boolean isPalindrome(String text) {
+		String lettersOnly = text.replaceAll("[^A-Za-z0-9]", "");
+	    return lettersOnly.equalsIgnoreCase(new StringBuilder(lettersOnly).reverse().toString()); 
+	}
 }
