@@ -1,5 +1,6 @@
+package kao.stepik.base.robot;
 
-public class RobotMoover {
+public class RobotMover {
 
 	public static void main(String[] args) {
 		moveRobot(new Robot(Direction.LEFT, 0, 0), 1, 1);
