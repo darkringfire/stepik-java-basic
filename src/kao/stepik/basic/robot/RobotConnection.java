@@ -1,4 +1,4 @@
-package kao.stepik.base.robot;
+package kao.stepik.basic.robot;
 
 public interface RobotConnection extends AutoCloseable {
     void moveRobotTo(int x, int y);

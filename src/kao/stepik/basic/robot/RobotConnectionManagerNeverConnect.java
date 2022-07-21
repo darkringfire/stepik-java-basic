@@ -1,4 +1,4 @@
-package kao.stepik.base.robot;
+package kao.stepik.basic.robot;
 
 public class RobotConnectionManagerNeverConnect implements RobotConnectionManager {
     static int cmCounter = 0;

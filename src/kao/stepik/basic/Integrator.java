@@ -1,3 +1,5 @@
+package kao.stepik.basic;
+
 import java.util.function.DoubleUnaryOperator;
 
 public class Integrator {

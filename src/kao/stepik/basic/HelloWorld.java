@@ -1,3 +1,5 @@
+package kao.stepik.basic;
+
 /**
  * A program that prints <code>Hello World!</code>
  * 

@@ -1,4 +1,4 @@
-package kao.stepik.base.robot;
+package kao.stepik.basic.robot;
 
 public class RobotExceptions {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package kao.stepik.basic;
+
 import java.util.Arrays;
 
 public class AsciiCharSequence implements CharSequence {
