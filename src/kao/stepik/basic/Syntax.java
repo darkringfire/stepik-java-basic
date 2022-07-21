@@ -1,3 +1,5 @@
+package kao.stepik.basic;
+
 import java.math.BigInteger;
 
 public class Syntax {

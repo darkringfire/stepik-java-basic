@@ -1,3 +1,5 @@
+package kao.stepik.basic;
+
 import java.security.MessageDigest;
 
 public class Quiz {

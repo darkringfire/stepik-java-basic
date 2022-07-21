@@ -1,4 +1,4 @@
-package kao.stepik.base.robot;
+package kao.stepik.basic.robot;
 
 public class RobotConnectionManagerNeverMove implements RobotConnectionManager {
     @Override

@@ -1,3 +1,5 @@
+package kao.stepik.basic;
+
 public final class ComplexNumber {
     private final double re;
     private final double im;

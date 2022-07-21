@@ -1,4 +1,4 @@
-package kao.stepik.base;
+package kao.stepik.basic;
 
 public class CallerClassAndMethodName {
 
